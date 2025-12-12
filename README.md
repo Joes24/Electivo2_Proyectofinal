@@ -30,17 +30,18 @@ Para probar el proyecto en tu computadora, solo necesitas una terminal y Python 
 Abre tu terminal en la carpeta del proyecto y ejecuta:
 pip install -r requirements.txt
 
-### Activar la aplicación web:
+### Paso 2: Activar la aplicación web:
+Inicie el servidor web con este comando:
 python app.py
 Verá un mensaje que dice: "Running on https://www.google.com/url?sa=E&source=gmail&q=http://127.0.0.1:5000"
+### Paso 3:Acceder a la web:
+1. Abra su navegador de internet (Chrome, Firefox, Edge).
+2. Escriba o pegue esta dirección: http://127.0.0.1:5000
+Verá la interfaz para subir tu imagen.
 
 ### Guía para poder la web:
 Una vez dentro de la web:
-
 1. Haz clic en "Seleccionar archivo" y sube una imagen (JPG/PNG).
-
 2. Selecciona el Regularizador (L2 o Huber).
-
-4. Presiona "Procesar".
-
+3. Presiona "Procesar".
 4. Espera unos segundos y verás la comparación entre la imagen degradada y la recuperada.
