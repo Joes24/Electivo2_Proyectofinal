@@ -42,6 +42,6 @@ Verá la interfaz para subir tu imagen.
 ### Guía para poder la web:
 Una vez dentro de la web:
 1. Haz clic en "Seleccionar archivo" y sube una imagen (JPG/PNG).
-2. Selecciona el Regularizador (L2 o Huber).
+2. Selecciona el Regularizador (L2 o Huber) junto a los parámetros.
 3. Presiona "Procesar".
 4. Espera unos segundos y verás la comparación entre la imagen degradada y la recuperada.
