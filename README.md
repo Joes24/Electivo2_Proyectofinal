@@ -9,7 +9,7 @@ Este proyecto implementa una solución numérica al problema inverso de Super-Re
 El objetivo es reconstruir una imagen de alta resolución $x$ a partir de una observación degradada $y$.
 Resolvemos el siguiente problema de minimización:
 
-$$ \min_x J(x) = 1/2 ||Ax - y||^2 + \lambda R(x) $$
+$$ \min_x J(x) = rac{1}{2} ||Ax - y||^2 + \lambda R(x) $$
 
 Donde:
 * **$A$ (Operador de Degradación):** Modela el desenfoque (Blur Gaussiano) y el submuestreo (Downsampling) de la imagen.
