@@ -1,6 +1,6 @@
 # Proyecto Final: Super-Resolución de imagenes 2D
 
-Este proyecto implementa una solución numérica al problema inverso de Super-Resolución (SR) utilizando métodos de optimización (Descenso de Gradiente) y una interfaz web construida con Flask.
+Este proyecto consiste en implementar una solución numérica al problema inverso de Super-Resolución (SR) utilizando métodos de optimización (Descenso de Gradiente) y una interfaz web construida con Flask.
 
 ## Integrantes:
 * José Gormaz, Octavio Marchant, Miguel Quispe, Stefany Urzua
