@@ -9,7 +9,7 @@ Este proyecto implementa una solución numérica al problema inverso de Super-Re
 El objetivo es reconstruir una imagen de alta resolución $x$ a partir de una observación degradada $y$.
 Resolvemos el siguiente problema de minimización:
 
-$$ \min_x J(x) = rac{1}{2} ||Ax - y||^2 + \lambda R(x) $$
+$$ \min_x J(x) = 1/2 * ||Ax - y||^2 + \lambda R(x) $$
 
 Donde:
 * **$A$ (Operador de Degradación):** Modela el desenfoque (Blur Gaussiano) y el submuestreo (Downsampling) de la imagen.
@@ -22,17 +22,26 @@ El código permite seleccionar entre dos tipos de regularización:
 abla x||^2$). Suaviza la imagen globalmente.
 2. **Huber (TV Suavizada):** Penaliza el gradiente usando la función de Huber. Preserva mejor los bordes (aristas) de la imagen que L2.
 
-## Instrucciones de Instalación y Ejecución
+## Instrucciones de Instalación y Ejecución (la forma más rapida)
 
-Sigue estos pasos para poder ejecutar el proyecto en tu máquina local:
+Para probar el proyecto en tu computadora, solo necesitas una terminal y Python instalado.
 
-### 1. Crear el Entorno Virtual (Opcional pero recomendado)
-Es buena práctica aislar las dependencias:
+### Paso 1: Instalar Dependencias
+Abre tu terminal en la carpeta del proyecto y ejecuta:
 ```bash
-# En Windows
-python -m venv venv
-vita\Scriptsctivate
+pip install -r requirements.txt
 
-# En Mac/Linux
-python3 -m venv venv
-source venv/bin/activate
+### Activar la aplicación web:
+python app.py
+Verá un mensaje que dice: "Running on https://www.google.com/url?sa=E&source=gmail&q=http://127.0.0.1:5000"
+
+### Guía para poder la web:
+Una vez dentro de la web:
+
+1. Haz clic en "Seleccionar archivo" y sube una imagen (JPG/PNG).
+
+2. Selecciona el Regularizador (L2 o Huber).
+
+4. Presiona "Procesar".
+
+4. Espera unos segundos y verás la comparación entre la imagen degradada y la recuperada.
