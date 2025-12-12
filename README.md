@@ -28,7 +28,6 @@ Para probar el proyecto en tu computadora, solo necesitas una terminal y Python 
 
 ### Paso 1: Instalar Dependencias
 Abre tu terminal en la carpeta del proyecto y ejecuta:
-```bash
 pip install -r requirements.txt
 
 ### Activar la aplicación web:
